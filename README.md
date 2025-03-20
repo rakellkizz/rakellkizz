@@ -22,8 +22,12 @@
   <a href="https://www.linkedin.com/in/raquel-g-de-souza" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=6&theme=tokyonight" alt="Top Langs">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=6&theme=tokyonight" alt="Top Langs">
 
   ##  
   ![ Animação de cobra ](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
 </div>
+<div align="center">
+  <h3>📌 Linguagens mais usadas:</h3>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=6&theme=tokyonight" alt="Top Langs">
+</div>
+
