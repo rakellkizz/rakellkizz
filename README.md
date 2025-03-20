@@ -17,6 +17,7 @@
   <img align="center" alt="Rakell-Python" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Rakell-Csharp" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
   <img align="center" alt="Rakell-ABAP" height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/2/23/SAP_ABAP_Logo.png">
+
 </div>
 
 ## 📊 **Linguagens mais usadas:**
