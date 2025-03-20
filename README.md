@@ -3,7 +3,6 @@
 <div align="center">
   <a href="https://github.com/rakellkizz">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rakellkizz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=7&theme=dracula"/>
   </a>
 </div>
 
@@ -20,16 +19,15 @@
   <img align="center" alt="Rakell-ABAP" height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/2/23/SAP_ABAP_Logo.png">
 </div>
 
-## 📊 **Estatísticas do GitHub:**
+## 📊 **Linguagens mais usadas:**
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=6&theme=tokyonight" alt="Top Langs">
 </div>
 
 ## 🐍 **Animação de Contribuições:**  
-<div align="center">
-  ![Snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
-</div>
+
+![Snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
 
 ## 🌐 **Me encontre no LinkedIn:**  
 <div align="center">
@@ -37,4 +35,3 @@
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 </div>
-
