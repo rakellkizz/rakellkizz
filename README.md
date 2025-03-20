@@ -21,6 +21,10 @@
 <div align="center">
   <h3>📌 Linguagens mais usadas:</h3>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=6&theme=tokyonight" alt="Top Langs">
+
+🐍 **Animação de Contribuições:**  
+![Snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
+
 </div>
 
 
