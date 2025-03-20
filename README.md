@@ -34,8 +34,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/raquel-g-de-souza" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-📩 **Me encontre em:**  
-  <a>
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rakellkizz@gmail.com)
-
 </div>
+📩 **Me encontre em:**  
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rakellkizz@gmail.com)
