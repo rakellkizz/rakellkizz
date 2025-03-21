@@ -38,3 +38,8 @@
 📩 **Me encontre em:**  
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rakellkizz@gmail.com)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SEU_USERNAME&color=blue" alt="Contador de visitantes">
+</p>
+
