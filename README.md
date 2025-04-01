@@ -32,15 +32,19 @@
 
 ![Snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
 
-## 🌐 **Me encontre no LinkedIn:**  
+## 🌐 **Me encontre em:**  
 <div align="center">
   <a href="https://www.linkedin.com/in/raquel-g-de-souza" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:rakellkizz@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.hackerrank.com/seu-usuario" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white">
+  </a>
 </div>
-📩 **Me encontre em:**  
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rakellkizz@gmail.com)  
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/seu-usuario)
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=rakellkizz&color=green" alt="Contador de visitantes">
 </p>
