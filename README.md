@@ -39,9 +39,9 @@
 </div>
 📩 **Me encontre em:**  
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rakellkizz@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rakellkizz@gmail.com)  
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/seu-usuario)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=rakellkizz&color=green" alt="Contador de visitantes">
 </p>
-
