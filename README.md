@@ -30,7 +30,7 @@
 
 ## 🐍 **Animação de Contribuições:**  
 
-![snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-snake.gif)
+![snake svg](https://github.com/rakellkizz/rakellkizz/blob/output/github-snake.svg)
 
 
 ## 🌐 **Me encontre em:**  
