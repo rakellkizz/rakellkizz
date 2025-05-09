@@ -31,8 +31,8 @@
 
 > Certifique-se de que o GitHub Actions está ativado e com o arquivo `github-snake.yml` na pasta `.github/workflows/` para isso funcionar.
 
-```md
-![Snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
+```md![snake svg](https://github.com/rakellkizz/rakellkizz/blob/output/github-snake.svg)
+
 
 
 
