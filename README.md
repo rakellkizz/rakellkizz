@@ -18,7 +18,7 @@
   <img align="center" alt="Rakell-CSS" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
   <img align="center" alt="Rakell-Python" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
   <img align="center" alt="Rakell-Csharp" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
-  <img align="center" alt="Rakell-SAP" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sap/sap-original.svg]/https://icons8.com.br/icon/38192/sap">
+  <img align="center" alt="Rakell-SAP" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sap/sap-original.svg">
 </div>
 
 ## 📊 **Linguagens mais usadas:**
