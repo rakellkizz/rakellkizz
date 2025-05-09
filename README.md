@@ -28,9 +28,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=10&theme=tokyonight&cache_seconds=1800" alt="Top Langs">
 </div>
 
+
+
 ## 🐍 **Animação de Contribuições:**  
 
 ![snake svg](https://github.com/rakellkizz/rakellkizz/blob/output/github-snake.svg)
+
+
 
 
 ## 🌐 **Me encontre em:**  
