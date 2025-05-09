@@ -1,30 +1,59 @@
-name: Generate Snake Animation
+name: Generate Snake
 
 on:
   schedule:
     - cron: "0 0 * * *"  # Executa todo dia à meia-noite
-  workflow_dispatch:  # Permite execução manual
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout do repositório
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Gerar a Snake Animation
-        uses: Platane/snk@v3
+      - name: Generate Snake Image
+        uses: Platane/snk@master
         with:
-          github_user_name: rakellkizz
-          outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Commit e Push
+          github_user_name: rakellkizz  # Nome de usuário, sem o link completo
+          
+      - name: Verify if image was generated correctly
         run: |
-          git config --global user.name "github-actions"
+          echo "Verificando se a imagem da cobrinha foi gerada corretamente..."
+          ls dist
+          # Verificar se os arquivos foram gerados corretamente
+          if [ ! -f dist/github-snake.svg ]; then
+            echo "Erro: Arquivo SVG não encontrado!"
+            exit 1
+          fi
+          if [ ! -f dist/github-snake.gif ]; then
+            echo "Erro: Arquivo GIF não encontrado!"
+            exit 1
+          fi
+          # Mostrar conteúdo do arquivo SVG para verificar se está válido
+          cat dist/github-snake.svg | head -n 10
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Atualizando animação da cobra"
-          git push
-     
+
+      - name: Create/Checkout output branch and Commit
+        run: |
+          # Verifica se o branch 'output' existe
+          git fetch origin output || git checkout -b output
+          
+          # Move os arquivos para a raiz do repositório
+          mv dist/github-snake.svg github-snake.svg
+          mv dist/github-snake.gif github-snake.gif
+          
+          # Adiciona e comita as mudanças
+          git add github-snake.svg github-snake.gif
+          
+          # Se houver alterações, faz o commit e push
+          git diff --cached --quiet || (
+            git commit -m "Add generated snake images"
+            git push origin output
+          )
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
