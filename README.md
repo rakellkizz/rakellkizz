@@ -1,2 +1,3 @@
 # Branch da cobrinha
-![snake svg](https://github.com/rakellkizz/rakellkizz/blob/output/github-snake.svg)
+![snake](https://raw.githubusercontent.com/rakellkizz/rakellkizz/output/github-snake.svg)
+
