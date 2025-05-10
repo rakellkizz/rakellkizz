@@ -30,7 +30,7 @@
 
 > Certifique-se de que o GitHub Actions está ativado e com o arquivo `github-snake.yml` na pasta `.github/workflows/` para isso funcionar.
 
-![Snake animation](https://github.com/rakellkizz/rakellkizz/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/rakellkizz/rakellkizz/blob/output/github-snake-dark.svg?raw=true)
 
 ## 🌐 **Me encontre em:**  
 <div align="center">
