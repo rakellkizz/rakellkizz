@@ -26,11 +26,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=10&theme=tokyonight&cache_seconds=1800" alt="Top Langs">
 </div>
 
-## 🐍 **Animação de Contribuições:**  
+## 🐍 Snake Contributions
 
-> Certifique-se de que o GitHub Actions está ativado e com o arquivo `github-snake.yml` na pasta `.github/workflows/` para isso funcionar.
+![Snake animation](https://raw.githubusercontent.com/rakellkizz/rakellkizz/output/github-snake.svg)
 
-![snake](https://raw.githubusercontent.com/rakellkizz/rakellkizz/output/github-snake.svg)
 
 ## 🌐 **Me encontre em:**  
 <div align="center">
