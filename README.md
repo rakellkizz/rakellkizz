@@ -28,7 +28,8 @@
 
 ## 🐍 Snake Contributions
 
-![Snake animation](https://raw.githubusercontent.com/rakellkizz/rakellkizz/output/github-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/output/github-snake.svg)
+
 
 
 ## 🌐 **Me encontre em:**  
