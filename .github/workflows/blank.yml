@@ -8,6 +8,7 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
@@ -17,11 +18,12 @@ jobs:
         with:
           github_user_name: rakellkizz
           outputs: |
-            ./github-snake.svg
-            ./github-snake-dark.svg?palette=github-dark
+            ./dist/github-snake.svg
+            ./dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Commit e Push do resultado
-        uses: EndBug/add-and-commit@v9
+      - name: Publicar no GitHub Pages (branch output)
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          message: "🐍 Atualiza a cobrinha (contribuições)"
-          add: "*.svg"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
