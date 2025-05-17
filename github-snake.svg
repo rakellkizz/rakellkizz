@@ -1,19 +1,43 @@
-- uses: Platane/snk@v3
-  with:
-    # github user name to read the contribution graph from (**required**)
-    # using action context var `github.repository_owner` or specified user
-    github_user_name: ${{ github.repository_owner }}
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" >
 
-    # list of files to generate.
-    # one file per line. Each output can be customized with options as query string.
-    #
-    #  supported options:
-    #  - palette:     A preset of color, one of [github, github-dark, github-light]
-    #  - color_snake: Color of the snake
-    #  - color_dots:  Coma separated list of dots color.
-    #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
-    #                 Exactly 5 colors are expected.
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+  <!-- Fundo -->
+  <rect width="400" height="100" fill="#111"/>
+
+  <!-- Pontinhos em tons de verde -->
+  <circle cx="80" cy="50" r="6" fill="#2ecc71" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="140" cy="50" r="6" fill="#27ae60" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="200" cy="50" r="6" fill="#16a085" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="260" cy="50" r="6" fill="#1abc9c" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  <circle cx="320" cy="50" r="6" fill="#2ecc71" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="4s"/>
+  </circle>
+
+  <!-- Cobrinha dourada (circulos conectados) -->
+  <g fill="gold" stroke="darkgoldenrod" stroke-width="1.5">
+    <!-- Cada círculo será animado no eixo X, com delay para parecer movimento em "onda" -->
+    <circle r="10" cy="50" >
+      <animate attributeName="cx" values="0;360" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle r="9" cy="50" >
+      <animate attributeName="cx" values="-20;340" dur="5s" repeatCount="indefinite" begin="0.1s" />
+    </circle>
+    <circle r="8" cy="50" >
+      <animate attributeName="cx" values="-40;320" dur="5s" repeatCount="indefinite" begin="0.2s" />
+    </circle>
+    <circle r="7" cy="50" >
+      <animate attributeName="cx" values="-60;300" dur="5s" repeatCount="indefinite" begin="0.3s" />
+    </circle>
+    <circle r="6" cy="50" >
+      <animate attributeName="cx" values="-80;280" dur="5s" repeatCount="indefinite" begin="0.4s" />
+    </circle>
+  </g>
+
+</svg>
