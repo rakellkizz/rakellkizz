@@ -1,5 +1,19 @@
-<svg viewBox="-16 -32 880 192" width="880" height="192" xmlns="http://www.w3.org/2000/svg">
-  <desc>Generated with ❤️ by Obemtequer</desc>
-  <style>:root{--cb:#1b1f230a;--cs:purple;--ce:#161b22;--c0:#161b22;--c1:#01311f;--c2:#034525;--c3:#0f6d31;--c4:#00c647}.c{shape-rendering:geometricPrecision;fill:var(--ce);stroke-width:1px;stroke:var(--cb);animation:none 18700ms linear infinite;width:12px;height:12px}@keyframes c0{9.62%{fill:var(--c1)}9.64%,100%{fill:var(--ce)}}.c.c0{fill:var(--c1);animation-name:c0} ...
-  <!-- RESTANTE DO SVG CONTINUA AQUI COMO NO ORIGINAL -->
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trilha de pontinhos em tons de verde -->
+  <circle cx="20"  cy="75" r="6" fill="#004d00" />
+  <circle cx="40"  cy="75" r="5" fill="#006600" />
+  <circle cx="60"  cy="75" r="4" fill="#008000" />
+  <circle cx="80"  cy="75" r="3" fill="#33cc33" />
+  <circle cx="100" cy="75" r="2" fill="#66ff66" />
+  <circle cx="120" cy="75" r="1.5" fill="#99ff99" />
+  
+  <!-- Corpo da cobrinha em dourado -->
+  <circle cx="140" cy="75" r="12" fill="#D4AF37" />
+  <circle cx="160" cy="65" r="10" fill="#D4AF37" />
+  <circle cx="180" cy="55" r="9" fill="#D4AF37" />
+  <circle cx="200" cy="45" r="8" fill="#D4AF37" />
+  
+  <!-- Cabeça da cobrinha -->
+  <circle cx="215" cy="40" r="7" fill="#D4AF37" />
+  <circle cx="220" cy="38" r="3" fill="#000" /> <!-- Olho -->
 </svg>
