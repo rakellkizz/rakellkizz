@@ -46,7 +46,7 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rakellkizz&color=green" alt="Contador de visitantes">
+  <img src="https://komarev.com/ghpvc/?username=rakellSouza&color=blue" alt="Contador de visitantes">
 </p>
 
 
