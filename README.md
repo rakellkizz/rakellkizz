@@ -35,6 +35,7 @@
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" />
 
 </div>
+
 ## 📊 **Linguagens mais usadas:**
 
 <div align="center">
