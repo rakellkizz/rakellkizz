@@ -36,10 +36,10 @@
 
 </div>
 
-## 📊 **Linguagens mais usadas:**
+## 📊 Linguagens mais usadas:
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&langs_count=10&theme=tokyonight&cache_seconds=1800" alt="Top Langs">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&theme=tokyonight" alt="Top Langs" />
 </div>
 
 ## 🐍 Snake Contributions
