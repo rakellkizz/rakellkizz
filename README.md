@@ -4,12 +4,11 @@
   <a href="https://github.com/rakellkizz">
     <img
       height="180"
-      src="https://github-readme-stats.vercel.app/api?username=rakellkizz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
-      alt="GitHub Stats Rakellkizz"
+      src="https://github-readme-stats.vercel.app/api?username=rakellkizz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false"
+      alt="Estatísticas do GitHub de Rakellkizz"
     />
   </a>
 </div>
-
 ## 🚀 Tecnologias & Ferramentas
 
 <div align="center">
