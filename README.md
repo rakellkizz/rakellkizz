@@ -10,7 +10,6 @@
   </a>
 </div>
 ## 🚀 Tecnologias & Ferramentas
-
 <div align="center">
   <a href="https://github.com/rakellkizz">
     <img
