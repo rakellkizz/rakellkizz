@@ -17,39 +17,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create profile directory
-        run: mkdir -p profile
-
       - name: Generate GitHub Stats
-        run: |
-          curl -L \
-            --retry 5 \
-            --retry-delay 10 \
-            --fail \
-            "https://github-readme-stats.vercel.app/api?username=rakellkizz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false" \
-            -o profile/github-stats.svg
+        uses: stats-organization/github-readme-stats-action@main
+        with:
+          card: stats
+          options: username=rakellkizz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=false
+          path: profile/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Top Languages
-        run: |
-          curl -L \
-            --retry 5 \
-            --retry-delay 10 \
-            --fail \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=rakellkizz&layout=compact&theme=tokyonight" \
-            -o profile/top-langs.svg
+        uses: stats-organization/github-readme-stats-action@main
+        with:
+          card: top-langs
+          options: username=rakellkizz&layout=compact&theme=tokyonight
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit generated cards
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add profile/github-stats.svg
-          git add profile/top-langs.svg
+          git add profile/*.svg
 
-          if git diff --cached --quiet; then
-            echo "Nenhuma alteração encontrada."
-            exit 0
-          fi
+          git commit -m "Atualiza cards de estatísticas do perfil" || exit 0
 
-          git commit -m "Atualiza cards de estatísticas do perfil"
           git push
